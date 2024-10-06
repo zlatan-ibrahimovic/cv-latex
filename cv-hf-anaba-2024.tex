@@ -1,0 +1,97 @@
+\documentclass[11pt,a4paper,sans]{moderncv}   
+\usepackage[utf8]{inputenc}  
+\moderncvtheme[purple]{classic}     
+\nopagenumbers{}                             
+\AtBeginDocument{\recomputelengths}
+
+% Ajustement des marges
+\usepackage[top=1.1cm, bottom=1.1cm, left=2cm, right=2cm]{geometry}
+\setlength{\hintscolumnwidth}{3cm} % Largeur de la colonne pour les dates
+\setlength{\makecvtitlenamewidth}{10cm} 
+
+% Informations personnelles
+\firstname{Henri-Frank}
+\familyname{ANABA}
+\title{Ingénieur en Technologie de l'Information}                        
+\address{22, Rue Saint-Rémi}{33000 Bordeaux}   
+%\mobile{06.49.72.65.06}     
+\mobile{06.17.06.78.24}     
+\email{frankanaba@yahoo.fr} 
+%\extrainfo{33 ans}
+
+\AfterPreamble{\hypersetup{
+  pdfauthor={Henri-Frank ANABA},
+  pdftitle={CV de Henri-Frank ANABA},
+  pdfsubject={Ingénieur en Technologie de l'Information},
+  urlcolor=blue,
+}}
+
+\begin{document}
+
+\makecvtitle
+
+\section{Compétences Clés}
+\cvitem{}{
+    \cvlistitem{6 ans d’expérience en développement de projets}
+    \cvlistitem{Méthodologie Agile Scrum/Agilité à l’échelle (SAFE)}
+    \cvlistitem{Organisé, rigoureux, bon relationnel}
+    \cvlistitem{Appétence pour le fonctionnel et la nouveauté}
+    \cvlistitem{Certifié DEVOPS foundation}
+}
+
+\section{Connaissances Techniques}
+\cvitem{Environnement}{Windows, Linux}
+\cvitem{Langages de Développement}{Java JEE, HTML 5, JavaScript/TypeScript, CSS3, SQL, PHP, Node.js, Python, C, Groovy, Script Bash}
+\cvitem{Frameworks}{Backbone.js, Angular (JS et 10), Vert.x, Liferay, BigBlueButton}
+\cvitem{IDE}{IntelliJ, Eclipse, Sublime Text}
+\cvitem{Logiciels et Outils}{GitHub, GitLab, JIRA, Confluence, jQuery, Chart.js, Bootstrap, JPA, Oracle, Maven, Jenkins, AppDynamics, Kibana, Phoebus, CyberArk, Selma, Lombok, H2, git-ci, concourse, Docker, kafka, Rabbit, Quarkus, Spring, Kubernetes, TAS}
+\cvitem{Bases de Données}{Neo4j, PostgreSQL, MongoDB, Mongoose, Oracle}
+
+\section{Formation}
+\cventry{2015}{Master en Informatique, spécialité Génie Logiciel et Conduite de Projet}{Université de Bordeaux}{}{}{}
+\cventry{2014}{Licence Informatique}{Université de Bordeaux}{}{}{}
+\cventry{2012}{1ère année}{ESIGELEC Rouen}{}{}{}
+\cventry{2011}{2ème année}{PREPA MATHSPE}{Prepa-VOGT}{Cameroun}{}
+\cventry{2010}{1ère année}{PREPA MATHSUP}{Prepa-VOGT}{Cameroun}{}
+
+\section{Expériences Professionnelles}
+
+\cventry{Depuis octobre 2019}{Ingénieur Études et Développements Fullstack, DEVOPS}{France Travail}{}{}{
+    \begin{itemize}
+        \item Analyses des besoins (features)
+        \item Conception, chiffrage et planification des User Stories (US)
+        \item Réalisation d'US
+        \item Présentation et animation de points de partage de conceptions et de réalisations
+        \item Suivi, correction et analyse d’anomalies
+        \item Maintenance et évolution de l’intégration continue des livrables du projet
+        \item Recherche de solutions innovantes et optimales
+        \item Communication et échanges avec les équipes de développement
+        \item Mise en place de chaine CI/CD
+        \item Réalisation de tests automatisés
+    \end{itemize}
+    \textbf{Environnement Technique :} Java JEE, framework SLDNG (SI Pôle Emploi), JPA, Angular 10, Oracle, Script Bash, Groovy, Maven, Jenkins, GitHub, outils Pôle Emploi (AppDynamics, Kibana, Phoebus, CyberArk), Selma, Lombok, base de données H2, Postgres, gitlab-ci, concourse, k8s, TAS
+}
+
+\cventry{Avril 2016 – octobre 2019}{Ingénieur Études et Développements}{CGI}{}{}{
+    \textbf{Projet ENT (Environnement Numérique de Travail) :}
+    \begin{itemize}
+        \item Développement des modules de vie scolaire (projet open source : \url{https://github.com/OPEN-ENT-NG/vie-scolaire})
+        \item Étude des besoins, conception de solutions, chiffrage et livraison
+        \item Réalisation de documentations techniques et intégration continue
+        \item Démonstrations clients et correction d’anomalies
+        \item Encadrement de nouveaux arrivants et revue de code
+        \item Montée de version framework
+    \end{itemize}
+    \textbf{Environnement Technique :} Java JEE, EntCore, JavaScript/TypeScript, Angular, jQuery, Vert.x, HTML5, MongoDB, PostgreSQL, JIRA, Confluence, Neo4j, GitHub, Python.
+}
+
+\cventry{Juillet 2014}{Développeur Web}{Laboratoire Bordelais de Recherche en Informatique}{}{}{
+    \begin{itemize}
+        \item Réalisation d’une application web pour la gestion d’une bibliothèque
+        \item Prise en main du framework Backbone
+        \item Réalisation de prototype et démonstration
+    \end{itemize}
+    \textbf{Environnement Technique :} Mongoose, Underscore, Backbone, HTML, Bootstrap.
+}
+
+\end{document}
